@@ -149,26 +149,3 @@ Architectural decisions directly impact quality attributes. Examples include:
    b) To avoid misleading stakeholders and ensure accurate evolution strategies.  
    c) To reduce the number of modules.  
    d) To allow ad-hoc maintenance.  
-
----
-
-### **Interactive questions**
-
-1. **Why is integrating architecture across all phases critical for a successful system?**  
-   Integrating architecture ensures a holistic view of the system. It aligns the entire development process with the system's overall goals, reducing risks like miscommunication and misaligned implementations.
-2. **Can you think of an example where an existing system’s design could influence requirements for a new project?**
-   *"Facebook (simple network for friends/connections) -> Meta (social multi-network semi-integrated applications)."*
-3. **What might happen if implementation diverges significantly from the planned architecture?**  
-   Divergence leads to architectural **misalignment**, increased maintenance costs, and unmet stakeholder expectations. This is why adherence to architecture is non-negotiable for project success.
-4. **Can you think of a system that has undergone architectural decay due to poor change management?**  
-   *"Google Hangouts didn’t align with users' video call requirements at the time."*  
-5. **Why is scalability critical in modern systems, especially with cloud-based architectures?**  
-   *"For example, in a client-server architecture... preemptively planning for a larger user base prevents risks and ensures smooth user experience."*  
-
-### **MCQ**
-
-1. b
-2. b
-3. b
-4. c
-5. b
