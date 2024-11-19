@@ -1,4 +1,6 @@
-# Software Design and Architecture Notes + Test yourself
+# Software Design and Architecture
+Simple to-the-point notes + test yourself for a university sda/sa course.
+
 ## Lectures
 - [Lecture 1 - Introduction to Software Architecture](lecture-1.md)
 - [Lecture 2 - Introduction to Architecture Design](lecture-2.md)
