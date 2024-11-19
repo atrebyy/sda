@@ -1,4 +1,4 @@
-­## **Lecture 1: Introduction to Software Architecture**  
+### **Lecture 1: Introduction to Software Architecture**  
 *Key concepts that form the backbone of modern software systems.*
 
 ---
@@ -112,17 +112,18 @@ Before we wrap up, let’s clarify these two terms:
    d) Clear resource contention resolution  
 
 ---
-## **Answers**
+### **Answers**
 
-### **Interactive questions**
+#### **Interactive questions**
 
-1. Why is hiding implementation details beneficial?
-> By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
+<details>
+<summary>1. Why is hiding implementation details beneficial?</summary>
+By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
+<summary>2. Why is incremental implementation important in large systems?</summary> 
+Incremental implementation allows for early detection of issues, reduces integration risks, and ensures a more robust final product.
+</details>
 
-2. Why is incremental implementation important in large systems?
-> Incremental implementation allows for early detection of issues, reduces integration risks, and ensures a more robust final product.
-
-### **MCQ**
+#### **MCQ**
 1. c
 2. b
 3. b 
