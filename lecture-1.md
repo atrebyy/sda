@@ -29,8 +29,11 @@ Let’s break this down into three primary goals:
 3. **Support Use Cases and Scenarios**  
    - It should handle expected workflows and ensure the system performs reliably under different conditions.
 
-**Now let me ask you:**  
-- Why do you think hiding implementation details is beneficial? (We’ll revisit this in the Q&A.)
+**Check yourself:**
+<details>
+   <summary>Why do you think hiding implementation details is beneficial?</summary>
+   By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
+</details>
 
 ---
 
@@ -68,7 +71,10 @@ There’s no universal recipe for good architecture, but certain principles are 
    - Build systems incrementally to uncover and address issues early, rather than integrating everything all at once.  
 
 **Think about this:**  
-- Why is incremental implementation so important in large systems?  
+<details>
+   <summary>Why is incremental implementation important in large systems?</summary> 
+   Incremental implementation allows for early detection of issues, reduces integration risks, and ensures a more robust final product.
+</details>
 
 ---
 
@@ -92,40 +98,25 @@ Before we wrap up, let’s clarify these two terms:
    b) Hiding the system’s structure  
    c) Exposing the structure but hiding implementation details  
    d) Optimizing runtime for a single user  
+<details><summary>Answer</summary>c</details>
 
 2. **Which structure focuses on runtime behavior and interactions?**  
    a) Module Structures  
    b) Component-and-Connector Structures  
    c) Allocation Structures  
    d) Data Structures  
+<details><summary>Answer</summary>b</details>
 
 3. **Why is documentation important in software architecture?**  
    a) To keep architects busy  
    b) To address stakeholder concerns and support implementation  
    c) To avoid using architectural patterns  
    d) To reduce system performance  
+<details><summary>Answer</summary>b</details>
 
 4. **Which is NOT a characteristic of a good architecture?**  
    a) Incremental implementation  
    b) Reliance on specific versions of commercial tools  
    c) Modularity and separation of concerns  
    d) Clear resource contention resolution  
-
----
-### **Interactive questions**
-
-<details>
-   <summary>1. Why is hiding implementation details beneficial?</summary>
-   By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
-</details>
-
-<details>
-   <summary>2. Why is incremental implementation important in large systems?</summary> 
-   Incremental implementation allows for early detection of issues, reduces integration risks, and ensures a more robust final product.
-</details>
-
-### **MCQ**
-<details><summary>1. </summary>c</details>
-<details><summary>2. </summary>b</details>
-<details><summary>3. </summary>b</details>
-<details><summary>4. </summary>b</details>
+<details><summary>Answer</summary>b</details>
