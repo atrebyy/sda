@@ -112,19 +112,20 @@ Before we wrap up, let’s clarify these two terms:
    d) Clear resource contention resolution  
 
 ---
-### **Answers**
-
-#### **Interactive questions**
+### **Interactive questions**
 
 <details>
-<summary>1. Why is hiding implementation details beneficial?</summary>
-By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
-<summary>2. Why is incremental implementation important in large systems?</summary> 
-Incremental implementation allows for early detection of issues, reduces integration risks, and ensures a more robust final product.
+   <summary>1. Why is hiding implementation details beneficial?</summary>
+   By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
 </details>
 
-#### **MCQ**
-1. c
-2. b
-3. b 
-4. b
+<details>
+   <summary>2. Why is incremental implementation important in large systems?</summary> 
+   Incremental implementation allows for early detection of issues, reduces integration risks, and ensures a more robust final product.
+</details>
+
+### **MCQ**
+<details><summary>1. </summary>c</details>
+<details><summary>2. </summary>b</details>
+<details><summary>3. </summary>b</details>
+<details><summary>4. </summary>b</details>
