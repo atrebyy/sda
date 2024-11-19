@@ -29,7 +29,7 @@ Let’s break this down into three primary goals:
 3. **Support Use Cases and Scenarios**  
    - It should handle expected workflows and ensure the system performs reliably under different conditions.
 
-**Check yourself:**
+**Think about this:**
 <details>
    <summary>Why do you think hiding implementation details is beneficial?</summary>
    By hiding details, architects can focus on the overall structure and interactions rather than getting bogged down by implementation specifics. This approach enhances scalability, maintainability, and collaboration.
