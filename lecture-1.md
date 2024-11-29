@@ -68,24 +68,24 @@
 1. **What are the three types of architectural structures?**
    <details>
    <summary>Answer</summary>
-   - Module Structures
-   - Component-and-Connector Structures
-   - Allocation Structures
+   - Module Structures<br>
+   - Component-and-Connector Structures<br>
+   - Allocation Structures<br>
    </details>
 
 2. **List three process recommendations for creating good software architecture.**
    <details>
    <summary>Answer</summary>
-   - Led by a single architect or small team.
-   - Use well-specified, prioritized quality attribute requirements.
-   - Incremental implementation to discover issues early.
+   - Led by a single architect or small team.<br>
+   - Use well-specified, prioritized quality attribute requirements.<br>
+   - Incremental implementation to discover issues early.<br>
    </details>
 
 3. **Differentiate between system and enterprise architecture.**
    <details>
    <summary>Answer</summary>
-   - System architecture maps functionality to hardware/software and emphasizes performance, reliability, and human interaction.
-   - Enterprise architecture focuses on aligning software systems with organizational goals, information flow, and data models.
+   - System architecture maps functionality to hardware/software and emphasizes performance, reliability, and human interaction.<br>
+   - Enterprise architecture focuses on aligning software systems with organizational goals, information flow, and data models.<br>
    </details>
 
 ---
