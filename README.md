@@ -1,4 +1,4 @@
-# Software Design and Architecture
+# Software Architecture and Design
 Simple to-the-point notes + test yourself for a university sda/sa course.
 
 ## Lectures
