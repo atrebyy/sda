@@ -1,140 +1,131 @@
-### Lecture 1: Introduction to Software Architecture and Design
+### Lecture: Introduction to Requirements Engineering and Software Architecture
+
+#### Topics Covered
+1. **Definition and Importance of Software Architecture**
+2. **Key Goals of Software Architecture**
+3. **Types of Architectural Structures**
+4. **Characteristics of Good Architecture**
+5. **System and Enterprise Architectures**
 
 ---
 
-#### **Key Concepts of Software Architecture**
-1. **Definition**:
-   - **Martin Fowler**: The highest-level breakdown of a system into parts; decisions that are hard to change and are architecturally significant throughout a system's lifecycle.
-   - **Philippe Kruchten et al.**: Involves selecting structural elements and their interfaces, specifying behavior, and adhering to an architectural style to meet functional and quality requirements.
-   - **Bass, Clements, Kazman**: Structures of the system, relationships among components, and externally visible properties.
+### Lecture Notes
 
-2. **Goals**:
-   - Expose system structure while hiding implementation details.
-   - Address requirements of stakeholders.
-   - Handle both functional and quality requirements.
+#### 1. **What is Software Architecture?**
+Software architecture refers to the high-level design and organization of a software system. Key definitions include:
+- **Martin Fowler's Definition:** It's the "important stuff," focusing on the decisions that are hard to change and involve multiple architectures in a system.
+- **Bass, Clements, and Kazman:** Emphasizes the structures of a system, software elements, their relationships, and externally visible properties.
 
----
-
-#### **Types of Architectural Structures**
-1. **Module Structures**:
-   - Static system representation: modules, areas of functional responsibility.
-   - Questions addressed:
-     - Functional responsibility of each module.
-     - Dependencies among modules.
-
-2. **Component-and-Connector Structures**:
-   - Runtime elements (components) and interactions (connectors).
-   - Questions addressed:
-     - Major components and runtime interactions.
-     - System’s parallelism and structure dynamics.
-
-3. **Allocation Structures**:
-   - Mapping software elements to non-software environments.
-   - Questions addressed:
-     - Processor assignments.
-     - Directories or files during development.
-     - Team assignments for software elements.
+**Key Aspects:**
+- Selection of structural elements and their interfaces.
+- System behavior and organization into subsystems.
+- Balancing functionality, usability, performance, and constraints.
 
 ---
 
-#### **What Makes a Good Architecture?**
-1. **Process Recommendations**:
-   - Led by a single architect or small team with a technical leader.
-   - Prioritized quality attribute requirements guide decisions.
-   - Use architectural views tailored to stakeholder concerns.
-   - Allow incremental implementation for early issue detection.
-
-2. **Product Recommendations**:
-   - Use well-defined modules with separation of concerns.
-   - Leverage known architectural patterns and tactics.
-   - Avoid dependency on specific commercial products or tools.
-   - Maintain flexibility for module-to-processor assignments.
+#### 2. **Goals of Software Architecture**
+The architecture must:
+- Expose the structure while hiding implementation details.
+- Fulfill all use cases and stakeholder requirements.
+- Balance functional and quality requirements.
 
 ---
 
-#### **System vs. Enterprise Architecture**
-1. **System Architecture**:
-   - Integrates hardware, software, and human interactions.
-   - Focuses on qualities like performance, reliability, and availability.
-
-2. **Enterprise Architecture**:
-   - Aligns software systems with business goals.
-   - Defines data models and rules for system interactions.
-
----
-
-### **Questions**
-
-1. **What are the three types of architectural structures?**
-   <details>
-   <summary>Answer</summary>
-   - Module Structures<br>
-   - Component-and-Connector Structures<br>
-   - Allocation Structures<br>
-   </details>
-
-2. **List three process recommendations for creating good software architecture.**
-   <details>
-   <summary>Answer</summary>
-   - Led by a single architect or small team.<br>
-   - Use well-specified, prioritized quality attribute requirements.<br>
-   - Incremental implementation to discover issues early.<br>
-   </details>
-
-3. **Differentiate between system and enterprise architecture.**
-   <details>
-   <summary>Answer</summary>
-   - System architecture maps functionality to hardware/software and emphasizes performance, reliability, and human interaction.<br>
-   - Enterprise architecture focuses on aligning software systems with organizational goals, information flow, and data models.<br>
-   </details>
+#### 3. **Types of Architectural Structures**
+1. **Module Structures:** Static organization of code or data.
+   - Questions answered: Functional responsibility, dependencies, and relationships.
+2. **Component-and-Connector Structures:** Runtime behaviors and interactions.
+   - Questions answered: Component interactions, parallelism, and runtime structure changes.
+3. **Allocation Structures:** Relation between software and external environments.
+   - Questions answered: Resource allocation and development assignments.
 
 ---
 
-### **Definitions**
-1. **Software Architecture**: Decisions about the structure, behavior, and style of software systems.
-2. **Quality Attribute Requirements**: Non-functional requirements like performance, usability, and resilience.
-3. **Architectural Patterns**: Reusable solutions to common design problems, such as MVC or Microservices.
+#### 4. **Characteristics of Good Architecture**
+1. **Process Recommendations:**
+   - Single architect or a small team with clear technical leadership.
+   - Based on quality attributes and stakeholder concerns.
+   - Documented with views for evaluation and incremental implementation.
+2. **Product/Structural Recommendations:**
+   - Well-defined modules with clear separation of concerns.
+   - Use of known patterns for quality attributes.
+   - Independence from specific tools or products.
+   - Clear interaction methods and minimal resource contention.
 
 ---
 
-### **MCQs for Self-Assessment**
+#### 5. **System and Enterprise Architectures**
+- **System Architecture:** Mapping software and hardware, emphasizing performance and reliability.
+- **Enterprise Architecture:** Aligning software systems with organizational goals, specifying data models, and interaction rules.
 
-#### Question 1
-**What is the primary goal of software architecture?**  
-1. Expose the system's structure.  
-2. Hide implementation details.  
-3. Both 1 and 2.  
-4. Neither 1 nor 2.  
+---
 
+### Interactive Questions
+
+#### **Question 1:**
+Why is it critical for software architecture to focus on "decisions that are hard to change"?  
 <details>
-<summary>Answer</summary>
-3. Both 1 and 2.
+<summary>Show Answer</summary>
+Changing foundational architectural decisions later can be costly and may lead to significant rework, impacting the system's overall quality and timeline.
+</details>
+
+#### **Question 2:**
+What are the three types of architectural structures, and what is the primary concern of each?  
+<details>
+<summary>Show Answer</summary>
+1. Module Structures: Static organization of code/data.  
+2. Component-and-Connector Structures: Runtime behaviors and interactions.  
+3. Allocation Structures: Relation between software and external resources.
+</details>
+
+#### **Question 3:**
+Name two characteristics of a "good architecture" according to the process recommendations.  
+<details>
+<summary>Show Answer</summary>
+1. Developed by a small team with clear technical leadership.  
+2. Based on a prioritized list of quality attribute requirements.
 </details>
 
 ---
 
-#### Question 2
-**Which of the following is NOT a type of architectural structure?**  
-1. Module Structure  
-2. Component-and-Connector Structure  
-3. Allocation Structure  
-4. Behavioral Structure  
+### MCQs
+
+**Question 1:**  
+What is NOT a primary concern of software architecture?  
+- A) Functional responsibility.  
+- B) Relationship between modules.  
+- C) GUI Design and styling.  
+- D) System performance.  
 
 <details>
 <summary>Answer</summary>
-4. Behavioral Structure
+C) GUI Design and styling.
 </details>
 
 ---
 
-#### Question 3
-**What is the role of an enterprise architecture?**  
-1. Align software systems with business goals.  
-2. Integrate software with hardware.  
-3. Focus on quality attributes like performance.  
-4. Design human interactions.  
+**Question 2:**  
+Which type of structure considers runtime behavior?  
+- A) Module Structures  
+- B) Component-and-Connector Structures  
+- C) Allocation Structures  
+- D) Data Flow Structures  
 
 <details>
 <summary>Answer</summary>
-1. Align software systems with business goals.
+B) Component-and-Connector Structures.
+</details>
+
+---
+
+**Question 3:**  
+What is a key aspect of enterprise architecture?  
+- A) Allocation of processors to software elements.  
+- B) Interaction rules between organizational systems.  
+- C) Assigning functional responsibilities to modules.  
+- D) Defining runtime components.  
+
+<details>
+<summary>Answer</summary>
+B) Interaction rules between organizational systems.
 </details>
