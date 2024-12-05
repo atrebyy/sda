@@ -117,10 +117,10 @@ Enterprise architecture aligns software systems with business processes and stra
 ### Multiple Choice Questions (MCQs)
 **Question 1:**  
 What is the primary goal of software architecture?  
-- [ ] A) To define programming languages to be used.  
-- [ ] B) To expose system structure and hide implementation details.  
-- [ ] C) To create only runtime component interactions.  
-- [ ] D) To design only user interfaces.
+- A) To define programming languages to be used.  
+- B) To expose system structure and hide implementation details.  
+- C) To create only runtime component interactions.  
+- D) To design only user interfaces.
 
 <details>
 <summary>Answer</summary>
@@ -129,10 +129,10 @@ B) To expose system structure and hide implementation details.
 
 **Question 2:**  
 Which type of architectural structure deals with runtime behavior?  
-- [ ] A) Module structures  
-- [ ] B) Allocation structures  
-- [ ] C) Component-and-connector structures  
-- [ ] D) Enterprise structures
+- A) Module structures  
+- B) Allocation structures  
+- C) Component-and-connector structures  
+- D) Enterprise structures
 
 <details>
 <summary>Answer</summary>
@@ -141,10 +141,10 @@ C) Component-and-connector structures
 
 **Question 3:**  
 What is a key recommendation for making a good architecture?  
-- [ ] A) Depend on the latest product versions.  
-- [ ] B) Use undocumented approaches.  
-- [ ] C) Clearly specify resource contention areas.  
-- [ ] D) Ensure a one-to-one module-to-component correspondence.
+- A) Depend on the latest product versions.  
+- B) Use undocumented approaches.  
+- C) Clearly specify resource contention areas.  
+- D) Ensure a one-to-one module-to-component correspondence.
 
 <details>
 <summary>Answer</summary>
