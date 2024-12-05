@@ -151,7 +151,3 @@ What is a key recommendation for making a good architecture?
 <summary>Answer</summary>
 C) Clearly specify resource contention areas.  
 </details>
-
----
-
-Does this explanation align with the lecture? Let me know if you'd like to explore any topic further!
