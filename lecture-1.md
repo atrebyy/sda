@@ -86,7 +86,7 @@ In this lecture, we will explore the foundational concepts of software architect
 
 ---
 
-### Interactive Questions (Answers Hidden in Markdown)
+### Interactive Questions
 
 **Question 1:**  
 What are the three types of architectural structures, and how do they differ?
@@ -114,8 +114,7 @@ Enterprise architecture aligns software systems with business processes and stra
 
 ---
 
-### Multiple Choice Questions (MCQs) (Answers Hidden in Markdown)
-
+### Multiple Choice Questions (MCQs)
 **Question 1:**  
 What is the primary goal of software architecture?  
 - [ ] A) To define programming languages to be used.  
